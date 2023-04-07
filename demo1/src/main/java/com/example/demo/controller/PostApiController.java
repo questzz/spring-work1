@@ -33,7 +33,7 @@ public class PostApiController {
 		reqDto.getPhoneNumber(); // 카멜
 		return reqDto;
 	}
-	
+	// 192.168.0.132:8080/api2/chat/{message}  
 	// GET : 주소 : path 
 	@GetMapping("/chat/{message}")
 	public String message(@PathVariable String message) {
